@@ -1,27 +1,27 @@
 	.align 2
 gText_ConfirmSave::
-	.string "Would you like to save the game?$"
+	.string "Quieres agregar un nuevo registro?$"
 
 gText_AlreadySavedFile::
-	.string "There is already a saved file.\n"
-	.string "Is it okay to overwrite it?$"
+	.string "Ya existe un registro.\n"
+	.string "quieres realizar otro registro?$"
 
 gText_SavingDontTurnOff::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "REGISTRANDO…\n"
+	.string "POR FAVOR TEN PACIENCIA.$"
 
 gText_PlayerSavedGame::
-	.string "{PLAYER} saved the game.$"
+	.string "{PLAYER} realizo un registro.$"
 
 gText_DifferentSaveFile::
-	.string "WARNING!\p"
-	.string "There is a different game file that\n"
-	.string "is already saved.\p"
-	.string "If you save now, the other file's\n"
-	.string "adventure, including items and\l"
-	.string "POKéMON, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
-	.string "and overwrite the other save file?$"
+	.string "ESPERA!\p"
+	.string "Ya existe un registro en este\n"
+	.string "diario de viaje.\p"
+	.string "Si realizas otro ahora, el\n"
+	.string "diario, las aventuras, objetos\l"
+	.string "POKéMON, se perderan.\p"
+	.string "Estas completamente seguro de\n"
+	.string "quieres realizar otro registro?$"
 
 gText_SaveError::
 	.string "Save error.\p"
@@ -29,5 +29,5 @@ gText_SaveError::
 	.string "backup memory.$"
 
 gText_SavingDontTurnOffPower::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "REGISTRANDO…\n"
+	.string "POR FAVOR TEN PACIENCIA.$"
